@@ -85,10 +85,10 @@ body{
     transition: all 0.5s ease;
 }
 
-.left-section .sidebar .item.active i{
+.left_section .sidebar .item.active i{
     background: rgb(254, 210, 77);
 }
 
-.left-section .sidebar .item.active h3{
+.left_section .sidebar .item.active h3{
     color: rgb(255, 183, 0);
 }
