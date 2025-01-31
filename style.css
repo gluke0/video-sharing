@@ -27,6 +27,8 @@ body{
     height: 100vh;
 }
 
+/* left section */
+
 .left_section{
     display: flex;
     flex-direction: column;
@@ -58,4 +60,20 @@ body{
     display: flex;
     flex-direction: column;
     gap: 16px;
+}
+
+.left_section .sidebar .item,
+.left_section .sign_out{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.left_section .sidebar .item i,
+.left_section .sign_out i{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 12px;
+    transition: all 0.5s ease;
 }
