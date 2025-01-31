@@ -37,3 +37,9 @@ body{
     padding: 20px 0;
     transition: all 0.3s ease;
 }
+
+.left_section .logo{
+    display: flex;
+    align-items: center;
+    gap: 7.50px;
+}
