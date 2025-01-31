@@ -43,3 +43,19 @@ body{
     align-items: center;
     gap: 7.50px;
 }
+
+.left_section .logo img{
+    width: 40px;
+    height: 40px;
+}
+
+.left_section .logo a{
+    font-weight: 600;
+    color: rgb(70, 70, 70);
+}
+
+.left_section .sidebar{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
