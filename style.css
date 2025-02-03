@@ -153,12 +153,25 @@ body{
     height: 100%;
     border-radius: 19px;
     cursor: pointer;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4);
     transition: box-shadow 0.4s ease;
 }
 
 .main .banner video:hover{
     box-shadow: none;
+}
+
+.main .banner .share{
+    position: absolute;
+    right: 48px;
+    top: 20px;
+}
+.main .banner .share i{
+    font-size: 20px;
+    color: white;
+    padding: 8px;
+    border-radius: 13px;
+    background: rgba(0, 0, 0, 0.5);
 }
 
 
