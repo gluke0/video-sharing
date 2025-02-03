@@ -94,3 +94,17 @@ body{
 }
 
 /* main */
+
+.main{
+    flex: 5;
+    margin-left: 180px;
+    transition: all 0.4s ease;
+}
+
+.main .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-right: 2px solid rgb(229, 229, 229);
+}
+
