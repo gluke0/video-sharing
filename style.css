@@ -131,4 +131,14 @@ body{
     cursor: pointer;
 }
 
+.main .header > i{
+    background: rgb(21, 51, 58);
+    color: white;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+
 
