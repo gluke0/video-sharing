@@ -174,5 +174,19 @@ body{
     background: rgba(0, 0, 0, 0.5);
 }
 
+.main .banner .video_info{
+    position: absolute;
+    color: white;
+    bottom: 0;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 14px;
+    border-radius: 19px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
 
 
