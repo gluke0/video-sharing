@@ -188,5 +188,12 @@ body{
     background: rgba(0, 0, 0, 0.5);
 }
 
+.main .banner .video_info .item{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
 
-
+.main .banner .video_info .item i{
+    font-size: 20px;
+}
