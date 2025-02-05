@@ -298,3 +298,23 @@ body{
 .main .video_items .item .details .info .rate i{
     color: rgb(243, 208, 118);
 }
+
+/* right section */
+.right_section{
+    flex: 2;
+}
+
+.right_section .profile{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.right_section .profile .info{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+
+
