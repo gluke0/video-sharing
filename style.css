@@ -221,3 +221,9 @@ body{
     cursor: pointer;
     transition: all 0.4s ease;
 }
+
+.main .separator .categories a.active,
+.main .separator .categories a:hover{
+    background: rgb(21, 51, 58);
+    color: white;
+}
