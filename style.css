@@ -280,3 +280,21 @@ body{
     margin-top: 8px;
     gap: 20px;
 }
+
+.main .video_items .item .details .info .location,
+.main .video_items .item .details .info .rate{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.main .video_items .item .details .info .location i,
+.main .video_items .item .details .info .rate i{
+    font-size: 18px;
+    color: rgb(85, 85, 85);
+}
+
+/* elemet */
+.main .video_items .item .details .info .rate i{
+    color: rgb(243, 208, 118);
+}
