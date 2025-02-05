@@ -270,3 +270,13 @@ body{
 .main .video_items .item video:hover{
     box-shadow: none;
 }
+
+.main .video_items .item .details{
+    margin-top: 10px;
+}
+
+.main .video_items .item .details .info{
+    display: flex;
+    margin-top: 8px;
+    gap: 20px;
+}
