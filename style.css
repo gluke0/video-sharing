@@ -227,3 +227,14 @@ body{
     background: rgb(21, 51, 58);
     color: white;
 }
+
+.main .video_items{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px 20px;
+}
+
+.main .video_items .item{
+    position: relative;
+    width: 30%;
+}
