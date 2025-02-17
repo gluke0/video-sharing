@@ -368,3 +368,24 @@ body{
 .right_section .playlist > video:hover{
     box-shadow: none;
 }
+
+.right_section .playlist .other{
+    width: 86%;
+    position: absolute;
+    bottom: 40px; /* could be lower without controls for the video */
+    left: 7%;
+    padding: 8px;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.right_section .playlist .other img{
+    width: 22%;
+    height: 40px;
+    border-radius: 11px;
+    cursor: pointer;
+}
