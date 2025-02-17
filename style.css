@@ -345,3 +345,13 @@ body{
     border-radius: 50%;
     cursor: pointer;
 }
+
+.right_section > h3{
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+.right_section .playlist{
+    margin-top: 20px;
+    position: relative;
+}
