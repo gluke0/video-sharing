@@ -331,3 +331,10 @@ body{
     gap: 14px;
 }
 
+.right_section .profile .user i{
+    font-size: 22px;
+    border: 1px solid #e5e5e5;
+    padding: 6px;
+    border-radius: 50%;
+    cursor: pointer;
+}
