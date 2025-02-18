@@ -389,3 +389,14 @@ body{
     border-radius: 11px;
     cursor: pointer;
 }
+
+.right_section .player{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #15333a;
+    margin-top: 16px;
+    padding: 10px 14px;
+    border-radius: 21px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
