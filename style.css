@@ -454,3 +454,20 @@ body{
     border-left: 1px solid #e5e5e5;
     padding-left: 10px;
 }
+
+.right_section .weekly{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 6px;
+}
+
+.right_section .weekly .item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-radius: 21px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+}
