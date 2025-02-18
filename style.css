@@ -428,7 +428,8 @@ body{
     font-weight: 500;
 }
 
-.right_section .player .content .info .rate{
+.right_section .player .content .info .rate,
+.right_section .weekly .item .content .info .view{
     display: flex;
     align-items: center;
     gap: 6px;
