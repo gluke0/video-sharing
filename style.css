@@ -295,7 +295,8 @@ body{
 }
 
 /* elemet */
-.main .video_items .item .details .info .rate i{
+.main .video_items .item .details .info .rate i,
+.right_section .player .content .info .rate i{
     color: rgb(243, 208, 118);
 }
 
@@ -442,4 +443,12 @@ body{
 .right_section .player .content .desc{
     display: none;
     margin: 0 20px 0 10px;
+}
+
+.right_section .player .content .desc p{
+    color: #e5e5e5;
+    font-size: 13px;
+    line-height: 1.1rem;
+    border-left: 1px solid #e5e5e5;
+    padding-left: 10px;
 }
