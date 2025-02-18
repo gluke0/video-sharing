@@ -432,3 +432,14 @@ body{
     gap: 6px;
     margin-top: 6px;
 }
+
+.right_section .player .content .info .rate h5{
+    font-weight: 600;
+    color: white;
+    font-size: 12px;
+}
+
+.right_section .player .content .desc{
+    display: none;
+    margin: 0 20px 0 10px;
+}
