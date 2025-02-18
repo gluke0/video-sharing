@@ -254,7 +254,8 @@ body{
 }
 
 /* elemeeeent */
-.main .video_items .item .like:hover{
+.main .video_items .item .like:hover,
+.right_section .weekly .item > i:hover{
     color: rgb(248, 97, 97);
 }
 
