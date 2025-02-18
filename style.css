@@ -400,3 +400,23 @@ body{
     border-radius: 21px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
 }
+
+.right_section .player > i{
+    background: rgb(254, 210, 77);
+    padding: 10px 4px;
+    border-radius: 21px;
+    cursor: pointer;
+}
+
+.right_section .player .content{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.right_section .player .content img{
+    width: 70px;
+    height: 48px;
+    border-radius: 13px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
