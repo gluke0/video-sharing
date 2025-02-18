@@ -420,3 +420,15 @@ body{
     border-radius: 13px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
 }
+
+.right_section .player .content .info > h5{
+    color: white;
+    font-weight: 500;
+}
+
+.right_section .player .content .info .rate{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 6px;
+}
