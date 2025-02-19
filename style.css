@@ -506,6 +506,14 @@ body{
 
 @media screen and (max-width: 1320px){
     
+    .main .separator .categories a:last-child,
+    .right_section .weekly .item:last-child{
+        display: none;
+    }
+
+    .main .separator .categories a{
+        font-size: 13px;
+    }
 
 }
 
