@@ -519,7 +519,36 @@ body{
 
 @media screen and (max-width: 1200px){
 
+    .left_section .logo a,
+    .left_section .sidebar .item h3,
+    .left_section .sign_out h3,
+    .main .separator .categories a:nth-child(2){
+        display: none;
+    }
 
+    .left_section .logo{
+        justify-content: center;
+    }
+
+    .main{
+        margin-left: 50px;
+        flex: 6;
+    }
+
+    .main .video_items .item .like{
+        font-size: 20px;
+        right: 15px;
+        top: 15px;
+    }
+
+    .main .video_items .item .details > h3,
+    .main .video_items .item .details .info .location i,
+    .main .video_items .item .details .info .rate i{
+        font-size: 15px;
+    }
+
+
+    
 }
 
 @media screen and (max-width: 992px){
