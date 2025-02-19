@@ -487,3 +487,16 @@ body{
     align-items: center;
     gap: 16px;
 }
+
+.right_section .weekly .item .content img{
+    max-width: 100px;
+    height: 66px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+.right_section .weekly .item .content .info .view h5,
+.right_section .weekly .item .content .info .view i{
+    font-weight: 600;
+    color: #555;
+}
