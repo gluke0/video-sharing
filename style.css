@@ -593,9 +593,28 @@ body{
         width: 100%;
     }
 
+    .right_section .playlist > video{
+        height: 340px;
+    }
 
-    
+    .right_section .playlist .other img{
+        height: 70px;
+    }
 
+    .right_section .player .content .desc{
+        display: block;
+    }
+
+    .right_section .weekly{
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 0;
+    }
+
+    .right_section .weekly .item{
+        width: 48%;
+    }
 
 }
 
