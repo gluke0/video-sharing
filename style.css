@@ -500,3 +500,31 @@ body{
     font-weight: 600;
     color: #555;
 }
+
+
+/* media query */
+
+@media screen and (max-width: 1320px){
+    
+
+}
+
+@media screen and (max-width: 1200px){
+
+
+}
+
+@media screen and (max-width: 992px){
+    
+
+}
+
+@media screen and (max-width: 768px){
+    
+
+}
+
+@media screen and (max-width: 576px){
+
+
+}
