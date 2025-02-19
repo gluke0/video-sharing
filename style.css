@@ -547,8 +547,25 @@ body{
         font-size: 15px;
     }
 
+    .main .video_items .item .details .info .location h5,
+    .main .video_items .item .details .info .rate h5,
+    .right_section .player .content .info > h5{
+        font-size: 13px;
+    }
 
-    
+    .right_section{
+        flex: 3;
+    }
+
+    .right_section .weekly .item .content img{
+        max-width: 80px;
+        height: 55px;
+    }
+
+    .right_section .weekly .item .content .info h4{
+        font-size: 14px;
+    }
+
 }
 
 @media screen and (max-width: 992px){
