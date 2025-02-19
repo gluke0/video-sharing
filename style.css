@@ -570,6 +570,32 @@ body{
 
 @media screen and (max-width: 992px){
     
+    body{
+        flex-direction: column;
+    }
+
+    .left_section{
+        padding-top: 70px;
+    }
+
+    .main{
+        margin-top: 50px;
+    }
+
+    .right_section{
+        padding-left: 70px;
+    }
+
+    .right_section .profile{
+        position: absolute;
+        top: 10px;
+        left: 0;
+        width: 100%;
+    }
+
+
+    
+
 
 }
 
