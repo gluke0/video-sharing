@@ -475,3 +475,15 @@ body{
 .right_section .weekly .item:hover{
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
+
+.right_section .weekly .item > i{
+    font-size: 24px;
+    cursor: pointer;
+    transition: color 0.4s ease;
+}
+
+.right_section .weekly .item .content{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
