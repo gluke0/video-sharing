@@ -671,9 +671,12 @@ body{
 
 @media screen and (max-width: 576px){
 
+    .right__section .player .content .desc{
+        display: none;
+    }
 
-
-
-
+    .right_section .weekly .item{
+        width: 100%;
+    }
 
 }
