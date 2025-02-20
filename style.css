@@ -620,10 +620,32 @@ body{
 
 @media screen and (max-width: 768px){
     
+    .main .banner .video_info .item:first-child,
+    .main .separator .categories a:nth-last-child(2),
+    .main .separator .categories a:nth-last-child(3){
+        display: none;
+    }
+
+    .main .banner .video_info .item h3{
+        font-size: 13px;
+    }
+
+    .main .video_items{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .main .video_items .item{
+        width: 100%;
+    }
 
 }
 
 @media screen and (max-width: 576px){
+
+
+
+
 
 
 }
