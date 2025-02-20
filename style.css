@@ -639,6 +639,21 @@ body{
         width: 100%;
     }
 
+    .main .video_items .item video{
+        height: 240px;
+    }
+
+    .main .video_items .item .details{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 16px;
+    }
+
+    .main .video_items .item .details .info{
+        margin-top: 0;
+    }
+
 }
 
 @media screen and (max-width: 576px){
