@@ -654,6 +654,19 @@ body{
         margin-top: 0;
     }
 
+    .main .video_items .item .details >h3{
+        font-size: 17px;
+    }
+
+    .main .video_items .item .details .info .location i,
+    .main .video_items .item .details .info .rate i{
+        font-size: 20px;
+    }
+
+    .right_section .weekly .item{
+        width: 50%;
+    }
+
 }
 
 @media screen and (max-width: 576px){
