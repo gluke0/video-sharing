@@ -671,7 +671,7 @@ body{
 
 @media screen and (max-width: 576px){
 
-    .right__section .player .content .desc{
+    .right_section .player .content .desc{
         display: none;
     }
 
