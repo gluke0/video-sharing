@@ -374,7 +374,7 @@ body{
 .right_section .playlist .other{
     width: 86%;
     position: absolute;
-    bottom: 40px; /* could be lower without controls for the video */
+    bottom: 12px; /* 40px with controls on video */
     left: 7%;
     padding: 8px;
     background: rgba(255, 255, 255, 0.4);
