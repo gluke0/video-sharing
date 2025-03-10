@@ -24,3 +24,11 @@ sideItems.forEach(sideItem =>{
 });
 
 // category item
+cateItems.forEach(catItem =>{
+    catItem.addEventListener('click', () =>{
+        cateItems.forEach(item =>{
+            item.classList.remove('active');
+        });
+        catItem.classList.add('active');
+    });
+});
