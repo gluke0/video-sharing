@@ -12,3 +12,13 @@ totVideos.forEach(video =>{
         video.pause();
     });
 });
+
+// sidebar item
+sideItems.forEach(sideItem =>{
+    sideItem.addEventListener('click', () =>{
+        sideItems.forEach(item => {
+            item.classList.remove('active');
+        });
+        sideItem.classList.add('active');
+    });
+});
