@@ -22,3 +22,5 @@ sideItems.forEach(sideItem =>{
         sideItem.classList.add('active');
     });
 });
+
+// category item
